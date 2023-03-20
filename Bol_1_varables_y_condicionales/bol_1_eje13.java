@@ -43,15 +43,16 @@ public class bol_1_eje13 {
                     num = "" + u;
                 }
             } else {
+                num = num + a;
                 System.out.println("Debe ingresar un numero con mas de dos dígitos.");
             }
         }else{
             System.out.println("El numero es de más de 5 cifras. ");
         }
 
-        if(Integer.parseInt(num) == Integer.parseInt(b) ){
+        if((Integer.parseInt(num) == Integer.parseInt(b))&& (Integer.parseInt(b) > 10) ){
             System.out.println("El numero "+ b +" es capicúa: " + num );
-        }else{
+        }else if (Integer.parseInt(b)>10){
             System.out.println("El número " + b + " no es Capicúa: " + num);
         }
     }
