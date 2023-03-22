@@ -10,6 +10,7 @@ public class bol_1_eje3 {
         System.out.println("Ingresa el radio de un circulo para hallar su longitud: ");
         Scanner R = new Scanner(System.in);
         r = R.nextDouble();
+        R.close();
 
         D = 2*Math.PI*r;
         System.out.println("La longitud del círculo es: " + D); 

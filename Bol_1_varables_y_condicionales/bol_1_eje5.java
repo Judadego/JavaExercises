@@ -9,7 +9,7 @@ public class bol_1_eje5 {
         System.out.println("Ingresa un número para verificar si es positivo o negativo: ");
         Scanner A = new Scanner(System.in);
         a = A.nextDouble();
-        
+        A.close();
         if (a < 0 ){
             System.out.println("El número "+ a + " es negativo.");
         }else{

@@ -10,6 +10,7 @@ public class bol_1_eje2 {
         System.out.println("Ingresa el radio de un circulo para hallar su área: ");
         Scanner R = new Scanner(System.in);
         r = R.nextDouble();
+        R.close();
 
         A = Math.PI*Math.pow(r, 2); //Math.pow Multiplica r ^ b 
 

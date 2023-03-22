@@ -13,7 +13,7 @@ public class bol_1_eje11 {
         System.out.println("ingresa un número entre 0 y 9.999: ");
         Scanner A = new Scanner(System.in);
         a = A.nextInt();
-
+        A.close();
         if (a < 10000) {
             if (a <= -1) {
                 System.out.println("El número está fuera del rango. Recuerda debe estar entre 0 y 9.999");

@@ -11,6 +11,7 @@ public class bol_1_eje13 {
         System.out.println("Ingresa un número de máx. 5 cifras para mostrarlo con sus cifras al revés. ");
         Scanner A = new Scanner(System.in);
         a = A.nextInt();
+        A.close();
         b = ""+ a;
         if (a < 100000) {
             if (a > 10) {
