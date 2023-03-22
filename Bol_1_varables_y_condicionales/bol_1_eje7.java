@@ -10,11 +10,12 @@ public class bol_1_eje7 {
         System.out.println("Ingresa el primer número: ");
         Scanner A = new Scanner(System.in);
         a = A.nextInt();
-        A.close();
+
         System.out.println("Ingresa el segundo número: ");
         Scanner B = new Scanner(System.in);
         b = B.nextInt();
         B.close();
+        A.close();
         if (a < b){
             System.out.println(b + " es mayor que " + a );
         }else{

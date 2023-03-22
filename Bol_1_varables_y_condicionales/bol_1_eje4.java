@@ -10,11 +10,12 @@ public class bol_1_eje4 {
         System.out.println("ingresa el primer número: ");
         Scanner A = new Scanner(System.in);
         a = A.nextDouble();
-        A.close();
+
         System.out.println("ingresa el segundo número: ");
         Scanner B = new Scanner(System.in);
         b = B.nextDouble();
         B.close();
+        A.close();
         if (a == b){
             System.out.println("El número " + a + " es igual a " + b);
         }else{

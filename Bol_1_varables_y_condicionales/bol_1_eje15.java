@@ -11,7 +11,7 @@ public class bol_1_eje15 {
             System.out.println("Ingresa el año (*YYYY): ");
             Scanner Y = new Scanner(System.in);
             y = Y.nextInt();
-            Y.close();
+
             if(y < 1900 || y > 9999){
                 System.out.println("Debe ser mayor que 1900 y menor que 9999.");
                 return;
@@ -19,7 +19,7 @@ public class bol_1_eje15 {
             System.out.println("Ingresa el mes (*MM): ");
             Scanner M = new Scanner(System.in);
             m = M.nextInt();
-            M.close();
+
             if(m < 0||m > 13){
                 System.out.println("Debe ser mayor que 0 y menor que 13.");
                 return;
@@ -27,11 +27,14 @@ public class bol_1_eje15 {
             System.out.println("Ingresa el día (*DD): ");
             Scanner D = new Scanner(System.in);
             d = D.nextInt();
+            Y.close();
+            M.close();
             D.close();
             if(d < 0|| d > 32){
                 System.out.println("Debe ser mayor que 0 y menor que 32.");
                 return;
             }
+
         }catch(Exception ex){
             System.out.println("Error. Debe ser numerico.");
             return;

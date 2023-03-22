@@ -10,15 +10,17 @@ public class bol_1_eje10 {
         System.out.println("ingresa el primer número: ");
         Scanner A = new Scanner(System.in);
         a = A.nextInt();
-        A.close();
+
         System.out.println("Ingresa el segundo número: ");
         Scanner B = new Scanner (System.in);
         b = B.nextInt();
-        B.close();
+
         System.out.println("Ingresa el tercer número: ");
         Scanner C = new Scanner (System.in);
         c = C.nextInt();        
         C.close();
+        A.close();
+        B.close();
         System.out.println("________________________");
         if (a < b & a < c){
             System.out.println(a);

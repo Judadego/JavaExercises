@@ -16,15 +16,15 @@ public class bol_1_eje16 {
             System.out.println("Ingresa el año (*YYYY): ");
             Scanner Y = new Scanner(System.in);
             y = Y.nextInt();
-            Y.close();
-            if (y < 1000 || y > 9999) {
+
+            if (y < 0 || y > 9999) {
                 err = true;
-                mensErr = ("El año debe ser mayor que 1000 y menor que 9999. ");
+                mensErr = ("El año debe ser diferente de 0 y menor que 9999. ");
             }
             System.out.println("Ingresa el mes (*MM): ");
             Scanner M = new Scanner(System.in);
             m = M.nextInt();
-            M.close();
+
             if (m < 0 || m > 13) {
                 err = true;
                 mensErr = mensErr + ("El mes debe ser mayor que 0 y menor o igual que 12. ");
@@ -33,6 +33,8 @@ public class bol_1_eje16 {
             Scanner D = new Scanner(System.in);
             d = D.nextInt();
             D.close();
+            Y.close();
+            M.close();
             numDias = Dias(m);
             if (d < 0 || d > numDias) {
                 err = true;
