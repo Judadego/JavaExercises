@@ -15,13 +15,13 @@ public class Eje2 {
     public static void inicio() {
         int a = 0;
         String mens = "Ingresa un número para indicar si es positivo o negativo. ";
-        a = Entrada.entero(a, mens);
+        a = Entrada.entero( mens);
         while (a != 0) {
             if (a < 0)
                 System.out.println(a + " es negativo.");
             else
                 System.out.println(a + " es positivo.");
-            a = Entrada.entero(a, mens);
+            a = Entrada.entero( mens);
         }
     }
 }

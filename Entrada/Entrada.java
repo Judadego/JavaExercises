@@ -4,8 +4,14 @@ import java.util.Scanner;
 
 public class Entrada {
     
-    public static int entero(int entero, String mens) {
-        int Nota = entero;
+    /**
+     * @param mens
+     * = mensaje a mostrar al solicitar ingresar el dato tipo int.
+     * @return
+     * (int numero)
+     */
+    public static int entero( String mens) {
+        int Nota = 0;
         System.out.println(mens);
         try {
             Scanner nota = new Scanner(System.in);
@@ -13,7 +19,7 @@ public class Entrada {
             //nota.close();
         } catch (Exception ex) {
             System.out.println("Error! Debe ser un dato numérico.");
-            Nota = entero(Nota,mens);
+            Nota = entero(mens);
         }
         return Nota;
     }

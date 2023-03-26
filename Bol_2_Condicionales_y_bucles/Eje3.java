@@ -15,14 +15,14 @@ public class Eje3 {
     public static void inicio() {
         int a = 0;
         String mens = " Ingresa un numero para determinar si es par o impar.";
-        a = Entrada.entero(a, mens);
+        a = Entrada.entero( mens);
         while (a != 0 ){
             a = a % 2;
             if (a == 0)
                 System.out.println("El numero es par.");
             else
                 System.out.println("El numero es impar.");
-            a = Entrada.entero(a, mens);
+            a = Entrada.entero( mens);
         }
     }
 }

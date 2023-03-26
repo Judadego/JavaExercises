@@ -22,14 +22,14 @@ public class Eje5 {
         // n = Entrada.entero(n,mens);
         n = (int) (Math.random() * 10000) + 1;
         System.out.println("Empezó el juego...");
-        num = Entrada.entero(n, mens);
+        num = Entrada.entero( mens);
         while (n != num) {
             if (n > num)
                 System.out.println(mens0);
             else
                 System.out.println(mens1);
             cont++;
-            num = Entrada.entero(n, mens);
+            num = Entrada.entero( mens);
         }
         System.out.println("Tuviste " + cont + " intentos.");
         return n;

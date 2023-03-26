@@ -16,11 +16,11 @@ public class Eje1 {
     public static void inicio() {
         int a = 0;
         String mens = "Ingresa un número para mostrar su cuadrado: ";
-        a = Entrada.entero(a, mens);
+        a = Entrada.entero( mens);
         while (a >= 0) {
             int cuadrado = a * a;
             System.out.println(a + "² es igual a " + cuadrado);
-            a = Entrada.entero(a, mens);
+            a = Entrada.entero( mens);
         }
     }
 }
