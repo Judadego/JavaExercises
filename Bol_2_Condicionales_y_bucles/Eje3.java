@@ -4,10 +4,14 @@ import Entrada.Entrada;
 
 public class Eje3 {
     public static void main(String []Args) {
+        par();
+    }
+    public static void par() {
         System.out.println("Para finalizar el programa ingresa 0.");
         inicio();
         System.out.println("Haz finalizado el programa :)");
     }
+
     public static void inicio() {
         int a = 0;
         String mens = " Ingresa un numero para determinar si es par o impar.";
