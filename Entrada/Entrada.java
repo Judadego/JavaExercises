@@ -23,4 +23,22 @@ public class Entrada {
         }
         return Nota;
     }
+    /*
+     * @param mens
+     * = mensaje a imprimir
+     * @return
+     * (String cadena)
+     */
+    public static String string(String mens) {
+        String cadena = "";
+        System.out.println(mens);
+        try {
+            Scanner Cadena = new Scanner(System.in);
+            cadena = Cadena.nextLine();
+        }catch(Exception ex){
+            System.out.println("Error.");
+            cadena = string(mens);
+        }
+        return cadena;
+    }
 }

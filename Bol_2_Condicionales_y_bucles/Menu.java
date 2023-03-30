@@ -32,6 +32,7 @@ public class Menu {
                 System.out.println("11. Numero a palabra.");
                 System.out.println("12. Juego Adivinaso.");
                 System.out.println("13. Hallar el factorial de un numero menor o igual a 12 ");
+                System.out.println("14. ¿En qué año cumplirás 100 años...");
                 System.out.println("0. Salir del menú.");
 
                 opcion = Entrada.entero(mens);
@@ -77,6 +78,9 @@ public class Menu {
                     break;
                 case 13:
                     Eje12.factorial();
+                    break;
+                case 14:
+                    CienAnios.cienAnios();
                     break;
                 default:
                     System.out.println("Pronto mas opciones...");
