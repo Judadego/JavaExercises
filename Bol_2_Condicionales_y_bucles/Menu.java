@@ -14,7 +14,7 @@ public class Menu {
     }
 
     public static void inicio(int opcion, int conf) {
-        String mens = "Ingresa una opción ( 1 a 11).";
+        String mens = "Ingresa una opción.";
         String mens1 = "";
         while (opcion > 0) {
             if (conf <= 0 ) {
@@ -30,11 +30,15 @@ public class Menu {
                 System.out.println("9. Mostar los numeros de 100 al 0 de 7 en 7.");
                 System.out.println("10. Sumar 15 numeros.");
                 System.out.println("11. Numero a palabra.");
+                System.out.println("12. Juego Adivinaso.");
+                System.out.println("13. Hallar el factorial de un numero menor o igual a 12 ");
                 System.out.println("0. Salir del menú.");
 
                 opcion = Entrada.entero(mens);
             }
             switch (opcion) {
+                case 0:
+                    break;
                 case 1:
                     Eje1.cuadrado();
                     break;
@@ -68,17 +72,26 @@ public class Menu {
                 case 11:
                     bol_1eje22.inicio();
                     break;
+                case 12:
+                    Adivina.adivina2();
+                    break;
+                case 13:
+                    Eje12.factorial();
+                    break;
                 default:
                     System.out.println("Pronto mas opciones...");
                     break;
             }
-            mens1 = ("¿Quieres repetir? Si = 1, No = 0");   
-            conf = 2;
-            while (conf != 0 && conf != 1){
-                conf = Entrada.entero(mens1);
-                if (conf != 0 && conf != 1)
-                    System.out.println("Opcion no válida. " );
+            if (opcion != 0){
+                mens1 = ("¿Quieres repetir? Si = 1, No = 0");   
+                conf = 2;
+                while (conf != 0 && conf != 1){
+                    conf = Entrada.entero(mens1);
+                    if (conf != 0 && conf != 1)
+                        System.out.println("Opcion no válida. " );
+                }
             }
+
                 
         }
     }
