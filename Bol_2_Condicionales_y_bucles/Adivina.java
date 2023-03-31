@@ -8,6 +8,12 @@ public class Adivina {
     public static void main(String[] Args) {
         adivina2();
     }
+    
+    public static String frase(String clave){
+        String fra;
+        fra = AFrases.ofrase(clave);
+        return fra;
+    }
 
     public static void adivina2() {
         int num = 0;
@@ -19,6 +25,7 @@ public class Adivina {
         int intentos = 0;
         String intentosC = "";
         String mens1 = AFrases.oFrase("001");
+        //String mens1 = frase("001"); // probar esta modificación, reduce palabras usadas y reutiliza codigo.
         System.out.println(AFrases.oFrase("002"));
         System.out.println(AFrases.oFrase("003"));
         while (max <= min || max <= 0 || min <= 0 || num < 0) {
@@ -39,6 +46,7 @@ public class Adivina {
             while (adivina > max || adivina < min)
                 adivina = (int) (Math.random() * max) + 1;
             System.out.println(String.format(AFrases.oFrase("011"),adivina));
+            //System.out.println(String.format(frase("011"),adivina));
 
             System.out.println(String.format(AFrases.oFrase("012"),1,2,0));
             while (opcion < 0 || opcion > 2)
