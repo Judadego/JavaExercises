@@ -25,7 +25,8 @@ public class CienAnios {
 
     public static int cumplir(int edad) {
         int year;
-        int cien = 100;
+        int cien = 100;  
+        // int cien = AFrases.oParm("001");
         LocalDate dt = LocalDate.now();
         year = dt.getYear();
         edad = year + (cien - edad);
