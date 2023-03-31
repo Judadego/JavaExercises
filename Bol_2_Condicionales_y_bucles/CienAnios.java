@@ -12,7 +12,8 @@ public class CienAnios {
     public static void cienAnios() {
         String nombre;
         int edad = 0;
-        System.out.println(AFrases.oFrase("028"));
+        System.out.println(AFrases.oFrase("028")); // para probar el comentariado es necesario reemplazar en el Frases.json 100 por %d
+        // System.out.println(String.format(AFrases.oFrase("028"),AFrases.oParm("001")));
         nombre = Entrada.string(AFrases.oFrase("029"));
         while (edad <= 0) {
             edad = Entrada.entero(String.format(AFrases.oFrase("030"),nombre));
