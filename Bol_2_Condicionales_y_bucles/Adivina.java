@@ -1,6 +1,7 @@
 package Bol_2_Condicionales_y_bucles;
 
 import Bol_1_varables_y_condicionales.bol_1eje22;
+import Entrada.AFrases;
 import Entrada.Entrada;
 
 public class Adivina {
@@ -17,19 +18,19 @@ public class Adivina {
         int opcion = 3;
         int intentos = 0;
         String intentosC = "";
-        String mens1 = "ingresa la opcion:";
-        System.out.println("Juego Adivina2.");
-        System.out.println("Juego donde piensas un número y la pc lo adivinará.");
+        String mens1 = AFrases.oFrase("001");
+        System.out.println(AFrases.oFrase("002"));
+        System.out.println(AFrases.oFrase("003"));
         while (max <= min || max <= 0 || min <= 0 || num < 0) {
-            System.out.println("Debe ser mayores a CERO");
-            num = Entrada.entero("Ingresa tu numero, prometo que no lo voy a ver...");
-            min = Entrada.entero("Ingresa el número minimo del rango en que está tu numero.");
-            max = Entrada.entero("Ingresa el número máximo del rango. ");
+            System.out.println(AFrases.oFrase("004"));
+            num = Entrada.entero(AFrases.oFrase("005"));
+            min = Entrada.entero(AFrases.oFrase("006"));
+            max = Entrada.entero(AFrases.oFrase("007"));
             if (max < min) {
-                System.out.println("____________________________________________");
-                System.out.println("El máximo no puede ser menor que " + min + ".");
-                System.out.println("Intenta ingresar el rango otra vez.");
-                System.out.println("____________________________________________");
+                System.out.println(AFrases.oFrase("008"));
+                System.out.println(String.format(AFrases.oFrase("009"),min));
+                System.out.println(AFrases.oFrase("010"));
+                System.out.println(AFrases.oFrase("008"));
             }
         }
         while (opcion != 1) {
@@ -37,9 +38,9 @@ public class Adivina {
             adivina = (int) (Math.random() * max) + 1;
             while (adivina > max || adivina < min)
                 adivina = (int) (Math.random() * max) + 1;
-            System.out.println("Creo que tu numero es " + adivina);
+            System.out.println(String.format(AFrases.oFrase("011"),adivina));
 
-            System.out.println("Si es correcto ingresa 1, si es mayor ingresa 2 y si es menor ingresa 0.");
+            System.out.println(String.format(AFrases.oFrase("012"),1,2,0));
             while (opcion < 0 || opcion > 2)
                 opcion = Entrada.entero(mens1);
 
@@ -64,41 +65,40 @@ public class Adivina {
             intentos++;
 
             if (max < min) {
-                System.out.println("No hagas trampa pendeja... ");
+                System.out.println(AFrases.oFrase("016"));
                 opcion = 1;
                 if (adivina == num)
-                    System.out.println("creo que tu numero ya lo adiviné jaja");
+                    System.out.println(AFrases.oFrase("017"));
 
-                System.out.println("Porqué no eres sinser@ conmigo ;( !! ");
+                System.out.println(AFrases.oFrase("018"));
             }
             if (err > 3) {
-                System.out.println("¿Me estás ocultando algo?");
-                err = Entrada.entero("1 = si, 2 = NO *sudando* ");
+                System.out.println(AFrases.oFrase("019"));
+                err = Entrada.entero(String.format(AFrases.oFrase("020"),1,0));
                 opcion = 1;
                 if (err == 1) {
-                    System.out.println("Lo sabía. *cara enojada*");
-                    opcion = Entrada.entero("¿Quieres ingresar nuevamente los rangos? " +
-                            " Si = 1" + " NO = 0 ");
+                    System.out.println(AFrases.oFrase("021"));
+                    opcion = Entrada.entero(AFrases.oFrase("021"));
                     if (opcion == 1) {
                         while (max <= min || max <= 0 || min <= 0 || num < 0) {
-                            System.out.println("Debe ser mayores a CERO");
-                            min = Entrada.entero("Ingresa el número minimo del rango en que está tu numero.");
-                            max = Entrada.entero("Ingresa el número máximo del rango. ");
+                            System.out.println(AFrases.oFrase("023"));
+                            min = Entrada.entero(AFrases.oFrase("024"));
+                            max = Entrada.entero(AFrases.oFrase("007"));
                             if (max < min) {
-                                System.out.println("____________________________________________");
-                                System.out.println("El máximo no puede ser menor que " + min + ".");
-                                System.out.println("Intenta ingresar el rango otra vez.");
-                                System.out.println("____________________________________________");
+                                System.out.println(AFrases.oFrase("008"));
+                                System.out.println(String.format(AFrases.oFrase("009"),min));
+                                System.out.println(AFrases.oFrase("010"));
+                                System.out.println(AFrases.oFrase("008"));
                             }
                             opcion = 3;
                             err = 0;
                         }
                     } else {
-                        System.out.println("Chao ;c");
+                        System.out.println(AFrases.oFrase("025"));
                         return;
                     }
                 } else {
-                    System.out.println("Sospechoso... jum...");
+                    System.out.println(AFrases.oFrase("026"));
                 }
             }
         }
@@ -107,7 +107,7 @@ public class Adivina {
         else
             intentosC = "" + intentos;
         if (err <= 1) {
-            System.out.println("Excelente!! he realizado " + intentosC + " intentos.");
+            System.out.println(String.format(AFrases.oFrase("027"),intentosC));
         }
 
     }

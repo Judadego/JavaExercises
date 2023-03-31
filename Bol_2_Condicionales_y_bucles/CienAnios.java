@@ -1,9 +1,8 @@
 package Bol_2_Condicionales_y_bucles;
 
 import java.time.LocalDate;
-import java.util.Scanner;
 
-import Entrada.Entrada;
+import Entrada.*;
 
 public class CienAnios {
     public static void main(String[] Args) {
@@ -13,15 +12,15 @@ public class CienAnios {
     public static void cienAnios() {
         String nombre;
         int edad = 0;
-        System.out.println("Programa paara determinar cuando cumples cien años...");
-        nombre = Entrada.string("Ingresa tu nombre: ");
+        System.out.println(AFrases.oFrase("028"));
+        nombre = Entrada.string(AFrases.oFrase("029"));
         while (edad <= 0) {
-            edad = Entrada.entero(nombre + ", ingresa tu edad: ");
+            edad = Entrada.entero(String.format(AFrases.oFrase("030"),nombre));
             if (edad <= 0)
-                System.out.println("Ingresa una edad válida:");
+                System.out.println(AFrases.oFrase("031"));
         }
         edad = cumplir(edad);
-        System.out.println("Hola " + nombre + "!, cumplirás 100 años en el año " + edad);
+        System.out.println(String.format(AFrases.oFrase("032"),nombre,edad));
     }
 
     public static int cumplir(int edad) {
