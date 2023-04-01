@@ -8,10 +8,10 @@ public class Adivina {
     public static void main(String[] Args) {
         adivina2();
     }
-    
-    public static String frase(String clave){
+
+    private static String frase(String clave) {
         String fra;
-        fra = AFrases.ofrase(clave);
+        fra = AFrases.oFrase(clave);
         return fra;
     }
 
@@ -24,20 +24,20 @@ public class Adivina {
         int opcion = 3;
         int intentos = 0;
         String intentosC = "";
-        String mens1 = AFrases.oFrase("001");
-        //String mens1 = frase("001"); // probar esta modificación, reduce palabras usadas y reutiliza codigo.
-        System.out.println(AFrases.oFrase("002"));
-        System.out.println(AFrases.oFrase("003"));
+        // String mens1 = AFrases.oFrase("001");
+        String mens1 = frase("001"); // probar esta modificación, reduce palabras usadas y reutiliza codigo.
+        System.out.println(frase("002"));
+        System.out.println(frase("003"));
         while (max <= min || max <= 0 || min <= 0 || num < 0) {
-            System.out.println(AFrases.oFrase("004"));
-            num = Entrada.entero(AFrases.oFrase("005"));
-            min = Entrada.entero(AFrases.oFrase("006"));
-            max = Entrada.entero(AFrases.oFrase("007"));
+            System.out.println(frase("004"));
+            num = Entrada.entero(frase("005"));
+            min = Entrada.entero(frase("006"));
+            max = Entrada.entero(frase("007"));
             if (max < min) {
-                System.out.println(AFrases.oFrase("008"));
-                System.out.println(String.format(AFrases.oFrase("009"),min));
-                System.out.println(AFrases.oFrase("010"));
-                System.out.println(AFrases.oFrase("008"));
+                System.out.println(frase("008"));
+                System.out.println(String.format(frase("009"), min));
+                System.out.println(frase("010"));
+                System.out.println(frase("008"));
             }
         }
         while (opcion != 1) {
@@ -45,10 +45,10 @@ public class Adivina {
             adivina = (int) (Math.random() * max) + 1;
             while (adivina > max || adivina < min)
                 adivina = (int) (Math.random() * max) + 1;
-            System.out.println(String.format(AFrases.oFrase("011"),adivina));
-            //System.out.println(String.format(frase("011"),adivina));
+            // System.out.println(String.format(AFrases.oFrase("011"),adivina));
+            System.out.println(String.format(frase("011"), adivina));
 
-            System.out.println(String.format(AFrases.oFrase("012"),1,2,0));
+            System.out.println(String.format(frase("012"), 1, 2, 0));
             while (opcion < 0 || opcion > 2)
                 opcion = Entrada.entero(mens1);
 
@@ -73,40 +73,40 @@ public class Adivina {
             intentos++;
 
             if (max < min) {
-                System.out.println(AFrases.oFrase("016"));
+                System.out.println(frase("016"));
                 opcion = 1;
                 if (adivina == num)
-                    System.out.println(AFrases.oFrase("017"));
+                    System.out.println(frase("017"));
 
-                System.out.println(AFrases.oFrase("018"));
+                System.out.println(frase("018"));
             }
             if (err > 3) {
-                System.out.println(AFrases.oFrase("019"));
-                err = Entrada.entero(String.format(AFrases.oFrase("020"),1,0));
+                System.out.println(frase("019"));
+                err = Entrada.entero(String.format(frase("020"), 1, 0));
                 opcion = 1;
                 if (err == 1) {
-                    System.out.println(AFrases.oFrase("021"));
-                    opcion = Entrada.entero(AFrases.oFrase("021"));
+                    System.out.println(frase("021"));
+                    opcion = Entrada.entero(frase("022"));
                     if (opcion == 1) {
                         while (max <= min || max <= 0 || min <= 0 || num < 0) {
-                            System.out.println(AFrases.oFrase("023"));
-                            min = Entrada.entero(AFrases.oFrase("024"));
-                            max = Entrada.entero(AFrases.oFrase("007"));
+                            System.out.println(frase("023"));
+                            min = Entrada.entero(frase("024"));
+                            max = Entrada.entero(frase("007"));
                             if (max < min) {
-                                System.out.println(AFrases.oFrase("008"));
-                                System.out.println(String.format(AFrases.oFrase("009"),min));
-                                System.out.println(AFrases.oFrase("010"));
-                                System.out.println(AFrases.oFrase("008"));
+                                System.out.println(frase("008"));
+                                System.out.println(String.format(frase("009"), min));
+                                System.out.println(frase("010"));
+                                System.out.println(frase("008"));
                             }
                             opcion = 3;
                             err = 0;
                         }
                     } else {
-                        System.out.println(AFrases.oFrase("025"));
+                        System.out.println(frase("025"));
                         return;
                     }
                 } else {
-                    System.out.println(AFrases.oFrase("026"));
+                    System.out.println(frase("026"));
                 }
             }
         }
@@ -115,7 +115,7 @@ public class Adivina {
         else
             intentosC = "" + intentos;
         if (err <= 1) {
-            System.out.println(String.format(AFrases.oFrase("027"),intentosC));
+            System.out.println(String.format(frase("027"), intentosC));
         }
 
     }

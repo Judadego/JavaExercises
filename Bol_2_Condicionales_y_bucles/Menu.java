@@ -9,7 +9,7 @@ public class Menu {
         System.out.println("Para finalizar escribe 0");
         int opcion = 100;
         int conf = 0;
-        inicio(opcion,conf);
+        inicio(opcion, conf);
         System.out.println("Final definitivo XD.");
     }
 
@@ -17,7 +17,7 @@ public class Menu {
         String mens = "Ingresa una opción.";
         String mens1 = "";
         while (opcion > 0) {
-            if (conf <= 0 ) {
+            if (conf <= 0) {
                 System.out.println("Elige una opcion: ");
                 System.out.println("1. Mostrar el cuadrado de un número.");
                 System.out.println("2. Mostrar si un número es negativo o positivo.");
@@ -86,17 +86,16 @@ public class Menu {
                     System.out.println("Pronto mas opciones...");
                     break;
             }
-            if (opcion != 0){
-                mens1 = ("¿Quieres repetir? Si = 1, No = 0");   
+            if (opcion != 0) {
+                mens1 = ("¿Quieres repetir? Si = 1, No = 0");
                 conf = 2;
-                while (conf != 0 && conf != 1){
+                while (conf != 0 && conf != 1) {
                     conf = Entrada.entero(mens1);
                     if (conf != 0 && conf != 1)
-                        System.out.println("Opcion no válida. " );
+                        System.out.println("Opcion no válida. ");
                 }
             }
 
-                
         }
     }
 }

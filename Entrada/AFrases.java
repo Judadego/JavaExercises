@@ -25,12 +25,12 @@ public class AFrases {
     public static final String ARCHIVO_PARM = "Parm.json";
     
     public static int oParm(String clave){
-        int num = null;
+        int num = 0;
         try {
-            JSONparser parser = new JSONParser();
+            JSONParser parser = new JSONParser();
             JSONObject json = (JSONObject) parser.parse(new FileReader(ARCHIVO_PARM));
-            num = (int) json.get(clave);
-        } cath (IOException | ParseException e ){
+            num = Integer.parseInt((String) json.get(clave));
+        } catch (IOException | ParseException e ){
             e.printStackTrace();
         }
         return num;

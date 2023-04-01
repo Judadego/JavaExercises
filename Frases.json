@@ -4,8 +4,8 @@
     "003": "Juego donde piensas un numero y la pc lo adivinara.",
     "004": "Debe ser mayores a CERO",
     "005": "Ingresa tu numero, prometo que no lo voy a ver...",
-    "006": "Ingresa el número minimo del rango en que está tu numero.",
-    "007": "Ingresa el número máximo del rango. ",
+    "006": "Ingresa el numero minimo del rango en que esta tu numero.",
+    "007": "Ingresa el numero máximo del rango. ",
     "008": "____________________________________________",
     "009": "El máximo no puede ser menor que %d.",
     "010": "Intenta ingresar el rango otra vez.",
@@ -15,25 +15,20 @@
     "014": 2,
     "015": 1,
     "016": "No hagas trampa pendeja... ",
-    "017": "creo que tu numero ya lo adiviné jaja",
-    "018": "Porqué no eres sinser@ conmigo ;( !! ",
-    "019": "¿Me estás ocultando algo?",
+    "017": "creo que tu numero ya lo adivine jaja",
+    "018": "Porque no eres sinser@ conmigo ;( !! ",
+    "019": "¿Me estas ocultando algo?",
     "020": "%d = si, %d = NO *sudando* ",
     "021": "Lo sabía. *cara enojada*",
     "022": "¿Quieres ingresar nuevamente los rangos? Si = 1, NO = 0 ",
     "023": "Debe ser mayores a CERO",
-    "024": "Ingresa el número minimo del rango en que está tu numero.",
+    "024": "Ingresa el numero minimo del rango en que esta tu numero.",
     "025": "Chao ;c",
     "026": "Sospechoso... jum...",
     "027": "Excelente!! he realizado %s intentos.",
-    "028": "Programa paara determinar cuando cumples cien años...",
+    "028": "Programa paara determinar cuando cumples %d anios...",
     "029": "Ingresa tu nombre: ",
     "030": "%s, ingresa tu edad: ",
-    "031": "Ingresa una edad válida:",
-    "032": "Hola %s, cumpliras 100 anios en el anio %d" 
-
-
-
-
-
+    "031": "Ingresa una edad valida:",
+    "032": "Hola %s, cumpliras %d anios en el anio %d" 
 }
