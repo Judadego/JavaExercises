@@ -1,44 +1,64 @@
 package Bol_2_Condicionales_y_bucles;
 
 import Bol_1_varables_y_condicionales.bol_1eje22;
+import Entrada.AFrases;
 import Entrada.Entrada;
 
 public class Menu {
     public static void main(String[] Args) {
-        System.out.println("Bienvenid@ a este programa, elige la opcion que deseas usar. ");
-        System.out.println("Para finalizar escribe 0");
+
+        System.out.println(frase("033"));
+        System.out.println(frase("034"));
         int opcion = 100;
         int conf = 0;
         inicio(opcion, conf);
-        System.out.println("Final definitivo XD.");
+        System.out.println(frase("035"));
+    }
+
+    private static String frase(String clave) {
+        String frase;
+        frase = AFrases.oFrase(clave);
+        return frase;
+    }
+
+    private static void print(String frase) {
+        System.out.println(frase);
     }
 
     public static void inicio(int opcion, int conf) {
-        String mens = "Ingresa una opción.";
+        String mens = frase("001");
         String mens1 = "";
         while (opcion > 0) {
             if (conf <= 0) {
-                System.out.println("Elige una opcion: ");
-                System.out.println("1. Mostrar el cuadrado de un número.");
-                System.out.println("2. Mostrar si un número es negativo o positivo.");
-                System.out.println("3. Mostrar si un número es par o impar.");
-                System.out.println("4. Contar los numeros ingresados.");
-                System.out.println("5. Juego. Adivina el número.");
-                System.out.println("6. Sumar numeros positivos.");
-                System.out.println("7. Hallar la media.");
-                System.out.println("8. Mostrar los numeros de 1 a N.");
-                System.out.println("9. Mostar los numeros de 100 al 0 de 7 en 7.");
-                System.out.println("10. Sumar 15 numeros.");
-                System.out.println("11. Numero a palabra.");
-                System.out.println("12. Juego Adivinaso.");
-                System.out.println("13. Hallar el factorial de un numero menor o igual a 12 ");
-                System.out.println("14. ¿En qué año cumplirás 100 años...");
-                System.out.println("0. Salir del menú.");
+                print(frase("036"));
+                print(frase("037"));
+                print(frase("038"));
+                print(frase("039"));
+                print(frase("040"));
+                print(frase("041"));
+                print(frase("042"));
+                print(frase("043"));
+                print(frase("044"));
+                print(frase("045"));
+                print(frase("046"));
+                print(frase("047"));
+                print(frase("048"));
+                print(frase("049"));
+                print(String.format(frase("050"),
+                        AFrases.oParm("001")));
+                print(frase("051"));
 
                 opcion = Entrada.entero(mens);
             }
             switch (opcion) {
                 case 0:
+                    opcion = Entrada.entero(frase("055") +  
+                                            frase("056"));
+                    if (opcion == 1) {
+                        opcion = 0;
+                        break;
+                    } else
+                        Menu.main(null);
                     break;
                 case 1:
                     Eje1.cuadrado();
@@ -83,16 +103,16 @@ public class Menu {
                     CienAnios.cienAnios();
                     break;
                 default:
-                    System.out.println("Pronto mas opciones...");
+                    print(frase("052"));
                     break;
             }
             if (opcion != 0) {
-                mens1 = ("¿Quieres repetir? Si = 1, No = 0");
+                mens1 = (frase("053"));
                 conf = 2;
                 while (conf != 0 && conf != 1) {
                     conf = Entrada.entero(mens1);
                     if (conf != 0 && conf != 1)
-                        System.out.println("Opcion no válida. ");
+                        print(frase("054"));
                 }
             }
 

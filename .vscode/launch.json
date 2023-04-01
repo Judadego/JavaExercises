@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje1",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje1",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje10",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje10",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje11",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje11",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje12",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje12",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje13",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje13",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje14",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje14",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje15",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje15",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje16",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje16",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje17",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje17",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje19",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje19",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje2",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje2",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje20",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje20",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje21",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje21",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje3",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje3",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje4",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje4",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje5",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje5",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje6",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje6",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje7",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje7",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje8",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje8",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1_eje9",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1_eje9",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "bol_1eje22",
+            "request": "launch",
+            "mainClass": "Bol_1_varables_y_condicionales.bol_1eje22",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Adivina",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Adivina",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "CienAnios",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.CienAnios",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje1",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje1",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje10",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje10",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje11",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje11",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje12",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje12",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje2",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje2",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje3",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje3",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje4",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje4",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje5",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje5",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje6",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje6",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje7",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje7",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje8",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje8",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje9",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje9",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Menu",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Menu",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        }
+    ]
+}
