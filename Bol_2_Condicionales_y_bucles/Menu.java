@@ -8,7 +8,8 @@ public class Menu {
     public static void main(String[] Args) {
         menu();
     }
-    private static void menu (){
+
+    private static void menu() {
         System.out.println(frase("033"));
         System.out.println(frase("034"));
         int opcion = 100;
@@ -48,22 +49,23 @@ public class Menu {
                 print(frase("049"));
                 print(String.format(frase("050"),
                         AFrases.oParm("001")));
+                print(frase("060"));
                 print(frase("051"));
 
                 opcion = Entrada.entero(mens);
             }
             switch (opcion) {
                 case 0:
-                    opcion = Entrada.entero(frase("055") +  
-                                            frase("056"));
+                    opcion = Entrada.entero(frase("055") +
+                            frase("056"));
                     if (opcion == 1) {
                         opcion = 0;
                         break;
-                    } else{
+                    } else {
                         opcion = 100;
                         break;
                     }
-                
+
                 case 1:
                     Eje1.cuadrado();
                     break;
@@ -106,11 +108,14 @@ public class Menu {
                 case 14:
                     CienAnios.cienAnios();
                     break;
+                case 15:
+                    eje13.pedir10();
+                    break;
                 default:
                     print(frase("052"));
                     break;
             }
-            if (opcion != 0 ) {
+            if (opcion != 0) {
                 mens1 = (frase("053"));
                 conf = 2;
                 while (conf != 0 && conf != 1) {
