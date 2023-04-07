@@ -54,5 +54,10 @@
     "053": "¿Quieres repetir? Si = 1, No = 0",
     "054": "Opcion no válida. ",
     "055": "Seguro?",
-    "056": " 1 = si, otro numero = No."
+    "056": " 1 = si, otro numero = No.",
+    "057": "Programa para pedir 10 numeros y hallar la media de los positivos, negativos y contar cuantos ceros.",
+    "058": "Ingresa un numero: ",
+    "059": "La Media de los %s ingresados es: %d" ,
+    "060": "15. Ingresa 10 numeros y se halla la media de positivos y negativos"
+
 }
