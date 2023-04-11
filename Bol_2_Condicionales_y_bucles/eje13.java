@@ -3,7 +3,7 @@ package Bol_2_Condicionales_y_bucles;
 import Entrada.AFrases;
 import Entrada.Entrada;
 
-public class eje13 {
+public class Eje13 {
     public static void main(String[] Args) {
         pedir10();
     }

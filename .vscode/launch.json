@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Eje14",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje14",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje13",
+            "request": "launch",
+            "mainClass": "Bol_2_Condicionales_y_bucles.Eje13",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
             "name": "eje13",
             "request": "launch",
             "mainClass": "Bol_2_Condicionales_y_bucles.eje13",

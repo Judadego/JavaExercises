@@ -1,5 +1,9 @@
 {
   "001D": "Parm para Pgm Determinar anio de cuando se cumple %d anios",
-  "001": "70" 
+  "001": "70",
+  "002D": "Parm para medir cuales salarios superan los mil euros.",
+  "002": "1000",
+  "003D": "parm para las veces que se pide los salarios. ",
+  "003": "5"
 
 }
