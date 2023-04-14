@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Eje05",
+            "request": "launch",
+            "mainClass": "Bol_3_Bucles_Anidados.Eje05",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje04",
+            "request": "launch",
+            "mainClass": "Bol_3_Bucles_Anidados.Eje04",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje03",
+            "request": "launch",
+            "mainClass": "Bol_3_Bucles_Anidados.Eje03",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje02",
+            "request": "launch",
+            "mainClass": "Bol_3_Bucles_Anidados.Eje02",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje01",
+            "request": "launch",
+            "mainClass": "Bol_3_Bucles_Anidados.Eje01",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
             "name": "Eje20",
             "request": "launch",
             "mainClass": "Bol_2_Condicionales_y_bucles.Eje20",
