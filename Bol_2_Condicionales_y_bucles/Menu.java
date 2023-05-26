@@ -50,6 +50,11 @@ public class Menu {
                 print(String.format(frase("050"),
                         AFrases.oParm("001")));
                 print(frase("060"));
+
+                print("16. "+ String.format(frase("061"), 
+                AFrases.oParm("003"), 
+                AFrases.oParm("002")));
+// esta linea es de 0. Salir del menú.
                 print(frase("051"));
 
                 opcion = Entrada.entero(mens);
@@ -109,7 +114,10 @@ public class Menu {
                     CienAnios.cienAnios();
                     break;
                 case 15:
-                    eje13.pedir10();
+                    Eje13.pedir10();
+                    break;
+                case 16:
+                    Eje14.sueldos();
                     break;
                 default:
                     print(frase("052"));

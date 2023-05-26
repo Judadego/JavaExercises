@@ -55,9 +55,13 @@
     "054": "Opcion no válida. ",
     "055": "Seguro?",
     "056": " 1 = si, otro numero = No.",
-    "057": "Programa para pedir 10 numeros y hallar la media de los positivos, negativos y contar cuantos ceros.",
+    "057": " Programa para pedir 10 numeros y hallar la media de los positivos, negativos y contar cuantos ceros.",
     "058": "Ingresa un numero: ",
     "059": "La Media de los %s ingresados es: %d" ,
-    "060": "15. Ingresa 10 numeros y se halla la media de positivos y negativos"
+    "060": "15. Ingresa 10 numeros y se halla la media de positivos y negativos",
+    "061": "Programa para mostrar la suma de %d sueldos y se mostrara cuantos son mayores a %d Euros",
+    "062": " Ingresa un valor: ",
+    "063": "El resultado es: " ,
+    "064": "Los sueldos mayores a Mil Euros son %d. "
 
 }
