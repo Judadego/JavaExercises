@@ -26,12 +26,18 @@ public class Eje05 {
         }
     }
 
+    /**
+     * @param int
+     * ingresa un numero si es igual a tres se devuelve la letra "E" 
+     * sino devuelve "3" de tipo String
+     * @return (String e)
+     */
     public static String tresE(int m) {
-        String uno = "";
+        String e = "";
         if (m == 3)
-            uno = "E";
+            e = "E";
         else
-            uno = Integer.toString(m);
-        return uno;
+            e = Integer.toString(m);
+        return e;
     }
 }

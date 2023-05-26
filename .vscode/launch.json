@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Eje12",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje12",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje11",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje11",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje10",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje10",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje09",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje09",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje08",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje08",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje07",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje07",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje06",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje06",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje05",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje05",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje04",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje04",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje03",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje03",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje02",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje02",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje01",
+            "request": "launch",
+            "mainClass": "Bol_4_Tablas.Eje01",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
+            "name": "Eje06",
+            "request": "launch",
+            "mainClass": "Bol_3_Bucles_Anidados.Eje06",
+            "projectName": "1. Ejercicios Java_5652dbb9"
+        },
+        {
+            "type": "java",
             "name": "Eje05",
             "request": "launch",
             "mainClass": "Bol_3_Bucles_Anidados.Eje05",
